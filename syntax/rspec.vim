@@ -177,6 +177,13 @@ syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 syntax match rspecGroupMethods /\.describe/
 syntax match rspecMatchers /\.to\w*/hs=s+1
 syntax match rspecMatchers /\.not\w*/hs=s+1
+syntax match rspecMatchers /\.once/hs=s+1
+syntax match rspecMatchers /\.twice/hs=s+1
+syntax match rspecMatchers /\.exactly/hs=s+1
+syntax match rspecMatchers /\.at_least/hs=s+1
+syntax match rspecMatchers /\.at_most/hs=s+1
+syntax match rspecMatchers /\.times/hs=s+1
+syntax match rspecMatchers /\.and_return/hs=s+1
 
 highlight link rspecGroupMethods Statement
 highlight link rspecBeforeAndAfter Identifier
