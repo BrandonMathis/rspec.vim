@@ -115,6 +115,7 @@ syntax keyword rspecMatchers
       \ to_not
       \ when
       \ wrap_expectation
+      \ contain_exactly
 
 " rspec-mongoid exclusive matchers
 syntax keyword rspecMatchers
@@ -174,6 +175,8 @@ syntax keyword rspecMessageExpectation
 
 syntax match rspecMatchers /\<\(be\|have\)_\w\+\>/
 syntax match rspecGroupMethods /\.describe/
+syntax match rspecMatchers /\.to\w*/hs=s+1
+syntax match rspecMatchers /\.not\w*/hs=s+1
 
 highlight link rspecGroupMethods Statement
 highlight link rspecBeforeAndAfter Identifier
