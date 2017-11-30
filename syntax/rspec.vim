@@ -184,6 +184,7 @@ syntax match rspecMatchers /\.at_least/hs=s+1
 syntax match rspecMatchers /\.at_most/hs=s+1
 syntax match rspecMatchers /\.times/hs=s+1
 syntax match rspecMatchers /\.and_return/hs=s+1
+syntax match rspecMatchers /\.from/hs=s+1
 
 highlight link rspecGroupMethods Statement
 highlight link rspecBeforeAndAfter Identifier
